@@ -5,16 +5,9 @@
     <classes>
       <class name="com.cg.test.ExcelDataProvider">
         <methods>
-          <include name="test1" invocation-numbers="0"/>
+          <include name="test1"/>
         </methods>
       </class> <!-- com.cg.test.ExcelDataProvider -->
-      <class name="com.cg.util.ExtentReportDemo2">
-        <methods>
-          <include name="tearDown"/>
-          <include name="Login"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.cg.util.ExtentReportDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

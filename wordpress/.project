@@ -6,7 +6,22 @@
 	</projects>
 	<buildSpec>
 		<buildCommand>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
 			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>cucumber.eclipse.builder.stepdefinition</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>cucumber.eclipse.builder.gherkin</name>
 			<arguments>
 			</arguments>
 		</buildCommand>
@@ -17,7 +32,9 @@
 		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>cucumber.eclipse.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
 	</natures>
 </projectDescription>
